@@ -93,7 +93,7 @@ h3 > #empty {
 /** Images are allowed to be a little wider when broken out into their own container */
 
 .container.image {
-    max-width: 1200px;
+    max-width: 100%;
     padding: 0;
 }
 
