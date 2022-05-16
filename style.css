@@ -83,6 +83,122 @@ h3 > #empty {
     border-style: no-border;
 }
 
+.dot {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%; 
+    border: 2px solid white;
+    position: absolute;
+}
+/** Images are allowed to be a little wider when broken out into their own container */
+
+.container.image {
+    max-width: 1200px;
+    padding: 0;
+}
+
+.container.image .caption,
+.container.image figcaption {
+    padding: 5px 10px;
+}
+
+
+
+.close , .inner {
+    display: none;
+}
+
+.dot.active {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#D5:not(.active) {
+    top: 41%;
+    left: 48%;
+}
+.annotate {
+    position: relative;
+}
+
+.dot.active .close,
+.dot.active .inner {
+    display: block;
+}
+
+.close {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    right: 10px;
+    top: 0px;
+}
+
+.dot.active {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 0;
+
+}
+
+.inner {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    padding: 10px;
+    transform: translateY(-50%);
+}
+.darkgreen {
+    
+    background-color: rgba(62, 111, 68, 0.707);
+
+}
+
+.yellow {
+    background-color: rgba(255, 245, 106, 0.65);
+}
+
+#D7:not(.active) {
+    top: 40%;
+    left: 53%;
+}
+
+.darkblue {
+    background-color: rgba(31, 75, 168, 0.621);
+}
+
+#D18:not(.active) {
+    top: 75%;
+    left: 54%;
+}
+
+#D17:not(.active) {
+    top: 71%;
+    left: 49%;
+}
+
+.red {
+    background-color: rgba(196, 78, 78, 0.663);
+}
+
+#D23:not(.active) {
+    top: 69%;
+    left: 55%;
+}
+
+.lightblue {
+    background-color: rgba(159, 219, 247, 0.65);
+}
+
 /* Tablet/Desktop overrides */
 
 @media(min-width: 681px) {}
