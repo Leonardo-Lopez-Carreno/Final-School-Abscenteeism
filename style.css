@@ -1,0 +1,98 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
+
+/* Start your base/mobile styles here */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    /* Sets default font-size to 16px, ensuring 1em = 16px; */
+    font-size: 18px;
+    background-color: lightgreen;
+}
+
+figcaption {
+    color: gray;
+    
+}
+
+img {
+    max-width: 70%;
+    max-height: 70%;
+    box-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.result {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 3px;
+}
+
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+}
+
+.item {
+    display: none;
+}
+
+.item.active {
+    display: table-row;
+}
+
+
+.filter{
+    padding: 10px;
+    margin-bottom: 15px;
+}
+img {
+    display: block;
+    width: 100%;
+}
+
+select {
+    display: block;
+    width: 100%;
+}
+
+#result{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+td> table {
+    flex-basis: calc(20% - 10px); 
+}
+
+h3 > #empty {
+    border-style: no-border;
+}
+
+/* Tablet/Desktop overrides */
+
+@media(min-width: 681px) {}
+
+#food > div {
+    flex-basis: calc(33% - 10px); 
+}
+
+
+
+@media(min-width: 729px) {
+    /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
+}
