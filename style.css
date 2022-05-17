@@ -19,12 +19,10 @@ figcaption {
 }
 
 img {
-    max-width: 70%;
-    max-height: 70%;
-    box-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}    
 
 .result {
     border-style: solid;
@@ -93,7 +91,7 @@ h3 > #empty {
 /** Images are allowed to be a little wider when broken out into their own container */
 
 .container.image {
-    max-width: 100%;
+    max-width: 800px;
     padding: 0;
 }
 
