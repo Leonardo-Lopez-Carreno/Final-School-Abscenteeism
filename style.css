@@ -116,8 +116,8 @@ h3 > #empty {
 }
 
 #D5:not(.active) {
-    top: 41%;
-    left: 48%;
+    top: 42%;
+    left: 47%;
 }
 .annotate {
     position: relative;
@@ -167,7 +167,7 @@ h3 > #empty {
 
 #D7:not(.active) {
     top: 40%;
-    left: 53%;
+    left: 55%;
 }
 
 .darkblue {
@@ -176,7 +176,7 @@ h3 > #empty {
 
 #D18:not(.active) {
     top: 75%;
-    left: 54%;
+    left: 56%;
 }
 
 #D17:not(.active) {
@@ -190,7 +190,7 @@ h3 > #empty {
 
 #D23:not(.active) {
     top: 69%;
-    left: 55%;
+    left: 57%;
 }
 
 .lightblue {
